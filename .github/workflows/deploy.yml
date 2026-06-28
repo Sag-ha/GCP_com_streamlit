@@ -23,7 +23,7 @@ on:
       - 'streamlit/Dockerfile'
       - 'streamlit/train.py'
       - 'streamlit/test_model.py'
-
+  workflow_dispatch:    # ← add this line
 jobs:
   test-and-deploy:
     runs-on: ubuntu-latest
