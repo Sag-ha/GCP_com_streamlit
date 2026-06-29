@@ -7,3 +7,4 @@ flask
 pytest
 google-cloud-storage
 # updated
+# fix storage permission
